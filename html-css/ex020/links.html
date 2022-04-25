@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none; /* tirar sublinhado */
+        }
+
+        a:visited{
+            color: red;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: darkred;
+        }
+
+        a:active{ /*link que foi clicado */
+            color: blueviolet;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/wesleysantosdev/" target="_blank">Repositório GitHub</a>
+        <li><a href="https://instagram.com/wxslev" target="_blank">Perfil do Instagram</a>
+        <li><a href="https://www.linkedin.com/in/wesleysantosdev" target="_blank">Perfil do LinkedIn</a>
+    </ul>
+</body>
+</html>

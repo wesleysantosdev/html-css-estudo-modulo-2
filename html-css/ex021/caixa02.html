@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        header {
+            background-color: salmon;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.322);
+        }
+
+        main {
+            background-color: lightblue;
+            border-radius: 10px;
+            padding: 2px 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.322);
+        }
+
+        footer {
+            background-color: aquamarine;
+            text-align: right;
+        }
+        
+        nav > a {
+            text-decoration: none;
+            color: yellow;
+        }
+        nav {
+            background-color: gray;
+            padding: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.322);
+        }
+        nav > a:hover {
+            color: violet;
+        }
+        article > aside {
+            text-align: right;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: sandybrown;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+              <article>
+                  <h1>Noticias sobre o Brasil</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rem, totam amet quis natus explicabo, sit voluptas et minima, adipisci asperiores ipsum consectetur laborum vero. Qui quaerat vitae quam totam.</p>
+                  <aside>
+                      <p>Artigo escrito por Wesley</p>
+                  </aside>
+              </article>
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido pelo Wesley</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
